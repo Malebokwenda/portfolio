@@ -1,0 +1,317 @@
+.box1
+{
+  position:absolute;
+  top: 60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  width: 1300px;
+  height: 700px;
+  padding: 20px;
+  box-sizing:border-box;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0  5px 15px rgb(0,0,0,.5);
+  display:flex;
+  transition: .5s;
+
+}
+.box1:hover
+{
+  box-shadow: 0 15px 30px rgba(0,0,0.5);
+}
+.box1 .imgBx
+{
+  width: 150px;
+  flex: 0 0 150px;
+}
+.box1 .imgBx img
+{
+  width: 550px;
+  height:100%;
+
+}
+.box1 .content
+{
+  padding-left: 420px;
+  text-align:left;
+  font-size:large;
+
+}
+.box1 .content h2
+{
+  margin-left: 20px;
+  padding-left: 0;
+  color:#fa4d87;
+  font-size: 30px;
+  font-style:oblique;
+  text-align:center;
+}
+
+.box1 .content h3{
+  margin: 20px;
+  padding-top: 30px;
+  margin-left: 20px;
+  padding-left: 0;
+  color:#fa4d87;
+  font-size: 30px;
+  font-style:oblique
+}
+.box1 .btn2{
+  padding: 10px 40px;
+  margin: 150px;
+  background-color:#9e0860;
+  border: 1px  solid #f2f2f2;
+  color: #0e0d0d;
+  outline: none;
+  transition: .6s ease;
+  
+}
+.box1 .btn2{
+  cursor:pointer ;
+  background-color: #aa14f0;
+  color: #eee;
+  /* box-shadow: #f2f2f2, 0 0 10px #f2f2f2, 0 0 15px #f2f2f2; */
+  font-weight: bold;
+}
+
+.box1 .content .skills{
+  flex: 0 0 40%;
+  max-width: 40%;
+  margin: 40px;
+}
+.box1 .content .skills .skill-item
+{
+  flex:  0 0 100%;
+  max-width: 100%;
+
+}
+.box1 .content .skills .skill-item h5{
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-black-900);
+  text-transform: capitalize;
+}
+.box1 .content .skills .skill-item .progress{
+  background-color:#eee;
+  height: 7px;
+  border-radius: 4px;
+  width: 100%;
+  position: relative;
+}
+.box1 .content .skills .skill-item {
+  margin-bottom: 25px;
+}
+.box1 .content .skills .skill-item .progress .progress-in{
+  position: absolute;
+  left: 0;
+  top:0;
+  height: 90%;
+  border-radius: 4px;
+  background-color: #e983db;
+}
+.box1 .content .skills .skill-item .skill-percent{
+  position: absolute;
+   right:-50px;
+  color: var(--text-black-900);
+  top: -30px;
+  font-weight: 400;
+  /* line-height: 50px; */
+}
+  
+@media screen and (max-width: 1024px){
+.box1
+{
+  /* position:absolute; */
+  /* top: 85%; */
+  /* left:60%; */
+  transform: translate(-50%,-50%);
+  /* width: 120%; */
+  /* height: 110%; */
+  width: 100vw;
+  padding: 20px;
+  box-sizing:border-box;
+  background: #e6ddf0;
+  border-radius: 10px;
+  box-shadow: 0  5px 15px rgb(0,0,0,.5);
+  display:flex;
+  transition: .5s;
+}
+.box1 .imgBx
+{
+  width: 300px; 
+  flex: 0 0 150px;
+}
+.box1 .imgBx img
+{
+  width: 50%px; 
+  height:100%;
+
+}
+.box1 .content
+{
+  padding-left: 300px;
+  text-align:start;
+  font-size:21px;
+
+}
+box1 .btn2{
+    padding: 10px 40px;
+    margin: 250px;
+    background-color:#9e0860;
+    border: 1px  solid #f2f2f2;
+    color: #0e0d0d;
+    outline: none;
+    transition: .6s ease;
+    
+  }
+  .box1 .btn2{
+    cursor:pointer ;
+    background-color: #aa14f0;
+    color: #eee;
+    box-shadow: #f2f2f2, 0 0 10px #f2f2f2, 0 0 15px #f2f2f2; 
+    font-weight: bold;
+  }
+  .box1 .content .skills{
+    flex: 0 0 40%;
+    max-width: 100%;
+    margin: 40px;
+  }
+  .box1 .content .skills .skill-item
+  {
+    flex:  0 0 100%;
+    max-width: 130%;
+  
+  }
+  .box1 .content .skills .skill-item h5{
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--text-black-900);
+    text-transform: capitalize;
+  }
+  .box1 .content .skills .skill-item .progress{
+    background-color:#eee;
+    height: 10px;
+    border-radius: 4px;
+    width: 90%;
+    position: relative;
+  }
+  .box1 .content .skills .skill-item {
+    margin-bottom: 30px;
+  }
+  .box1 .content .skills .skill-item .progress .progress-in{
+    position: absolute;
+    left: 0;
+    top:0;
+    height: 100%;
+    border-radius: 4px;
+    background-color: #e983db;
+  }
+  .box1 .content .skills .skill-item .skill-percent{
+    position: absolute;
+    right:-100px;
+    color: var(--text-black-900);
+    top: -30px;
+    font-weight: 400;
+    
+  }
+} 
+@media screen and (max-width: 1024){
+    .box1
+    {
+      position:absolute;
+      top: 85%;
+      left:60%;
+      transform: translate(-50%,-50%);
+      width: 120%;
+      height: 110%;
+      padding: 20px;
+      box-sizing:border-box;
+      background: #e6ddf0;
+      border-radius: 10px;
+      box-shadow: 0  5px 15px rgb(0,0,0,.5);
+      display:flex;
+      transition: .5s;
+      
+    }
+    .box1 .imgBx
+    {
+      /* width: 300px; */
+      flex: 0 0 150px;
+    }
+    .box1 .imgBx img
+    {
+      /* width: 50%px; */
+      height:100%;
+    
+    }
+    .box1 .content
+    {
+      padding-left: 300px;
+      text-align:start;
+      font-size:21px;
+    
+    }
+    box1 .btn2{
+        padding: 10px 40px;
+        margin: 250px;
+        background-color:#9e0860;
+        border: 1px  solid #f2f2f2;
+        color: #0e0d0d;
+        outline: none;
+        transition: .6s ease;
+        
+      }
+      .box1 .btn2{
+        cursor:pointer ;
+        background-color: #aa14f0;
+        color: #eee;
+        /* box-shadow: #f2f2f2, 0 0 10px #f2f2f2, 0 0 15px #f2f2f2; */
+        font-weight: bold;
+      }
+      .box1 .content .skills{
+        flex: 0 0 40%;
+        max-width: 100%;
+        margin: 40px;
+      }
+      .box1 .content .skills .skill-item
+      {
+        flex:  0 0 100%;
+        max-width: 130%;
+      
+      }
+      .box1 .content .skills .skill-item h5{
+        line-height: 40px;
+        font-weight: 600;
+        font-size: 20px;
+        color: var(--text-black-900);
+        text-transform: capitalize;
+      }
+      .box1 .content .skills .skill-item .progress{
+        background-color:#eee;
+        height: 10px;
+        border-radius: 4px;
+        width: 90%;
+        position: relative;
+      }
+      .box1 .content .skills .skill-item {
+        margin-bottom: 30px;
+      }
+      .box1 .content .skills .skill-item .progress .progress-in{
+        position: absolute;
+        left: 0;
+        top:0;
+        height: 100%;
+        border-radius: 4px;
+        background-color: #e983db;
+      }
+      .box1 .content .skills .skill-item .skill-percent{
+        position: absolute;
+        right:-100px;
+        color: var(--text-black-900);
+        top: -30px;
+        font-weight: 400;
+        
+      }
+    } 
